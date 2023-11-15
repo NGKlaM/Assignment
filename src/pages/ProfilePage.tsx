@@ -7,7 +7,7 @@ const ProfilePage = () => {
         <div className="box">
           <div className="image">
             <img
-              src="src/image/pngtree-natural-scenery-in-beautiful-island-picture-image_2873036.jpg"
+              src="./images/pngtree-natural-scenery-in-beautiful-island-picture-image_2873036.jpg"
               alt=""
             />
           </div>
@@ -30,7 +30,7 @@ const ProfilePage = () => {
                 className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
               >
                 <img
-                  src="public/image/lo-go-valaw.png"
+                  src="./images/lo-go-valaw.png"
                   className="h-8"
                   alt="Flowbite Logo"
                 />
