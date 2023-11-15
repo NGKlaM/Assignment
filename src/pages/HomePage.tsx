@@ -32,7 +32,7 @@ const HomePage = () => {
     <>
       <div className="banner relative">
         <img
-          src="src/image/modern-blue-grunge-banner-background-free-vector.jpg"
+          src="public/image/modern-blue-grunge-banner-background-free-vector.jpg"
           alt="banner"
           className="w-full h-full object-cover rounded"
         />
@@ -127,7 +127,7 @@ const HomePage = () => {
               className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
               <img
-              src="src/image/lo-go-valaw.png"
+              src="public/image/lo-go-valaw.png"
               className="h-8"
               alt="Flowbite Logo"
             />

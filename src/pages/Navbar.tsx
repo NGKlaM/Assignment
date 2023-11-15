@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="src/image/lo-go-valaw.png"
+              src="public/image/lo-go-valaw.png"
               className="h-8"
               alt="Flowbite Logo"
             />

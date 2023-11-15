@@ -30,7 +30,7 @@ const ProfilePage = () => {
                 className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
               >
                 <img
-                  src="src/image/lo-go-valaw.png"
+                  src="public/image/lo-go-valaw.png"
                   className="h-8"
                   alt="Flowbite Logo"
                 />
