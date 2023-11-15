@@ -8,7 +8,19 @@
     justify-content: center;
     gap: 3rem;
   }
-
+  .text-xl {
+    font-size: 15px; /* hoặc giá trị phù hợp với thiết kế của bạn */
+    font-weight: bold; /* hoặc giá trị phù hợp với thiết kế của bạn */
+  }
+  .tracking-tight {
+    letter-spacing: -0.5px; /* hoặc giá trị phù hợp với thiết kế của bạn */
+  }
+  .text-gray-900 {
+    color: #333; /* hoặc mã màu phù hợp với thiết kế của bạn */
+  }
+  .font-semibold {
+    font-weight: 600; /* hoặc giá trị phù hợp với thiết kế của bạn */
+  }  
 .banner {
     margin-bottom: 2rem;
 }
