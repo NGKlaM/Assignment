@@ -1,18 +1,19 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import {Product} from "../typings/project";
 
-type Product = {
-  id: number;
-  title: string;
-  image: string;
-  price: number;
-  description: string;
-  category: string;
-  rating: {
-    rate: number;
-    count: number;
-  };
-}
+// type Product = {
+//   id: number;
+//   title: string;
+//   image: string;
+//   price: number;
+//   description: string;
+//   category: string;
+//   rating: {
+//     rate: number;
+//     count: number;
+//   };
+// }
 const HomePage = () => {
   const [productList, setProductList] = useState<Product[]>([]);
 
