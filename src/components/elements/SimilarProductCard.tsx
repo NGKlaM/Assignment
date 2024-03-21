@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Product } from '../../typings/project';
+import { Product } from '../../types/Product';
 
 type ProductCardProps = {
     product: Product;
@@ -8,7 +8,7 @@ type ProductCardProps = {
 const SimilarProductCard: React.FC<ProductCardProps> = ({ product }) => {
     return (
         <Link
-            to={`/products/${product.id}`}
+            to={`/api/products/${product._id}`}
             className="group block overflow-hidden"
         >
             <li>

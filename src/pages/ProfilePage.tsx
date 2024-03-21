@@ -3,7 +3,6 @@ const ProfilePage = () => {
   return (
 
     <div className="container">
-      
       <div className="profile">
         <h1>Profile cá nhân</h1>
         <div className="box">

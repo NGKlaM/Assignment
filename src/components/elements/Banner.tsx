@@ -2,7 +2,7 @@ const Banner = () => {
     return(
         <div className="banner relative">
         <img
-          src="./images/modern-blue-grunge-banner-background-free-vector.jpg"
+          src="../../../public/images/maxresdefault.jpg"
           alt="banner"
           className="w-full h-full object-cover rounded"
         />
